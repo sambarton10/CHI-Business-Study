@@ -16,7 +16,7 @@ var myMap = L.map("map", {
   
   // Store API query variables
   var baseURL = "https://data.cityofchicago.org/resource/uupf-x98q.json?";
-  var date = "&$where=date_issued between'2021-01-10T00:00:00' and '2021-01-19T00:00:00'";
+  var date = "&$where=date_issued between'2021-01-01T00:00:00' and '2021-01-19T00:00:00'";
   var licenseStatus = "license_status=AAI";
   var limit = "&$limit=100000";
   
